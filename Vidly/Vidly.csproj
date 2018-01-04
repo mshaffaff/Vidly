@@ -217,6 +217,10 @@
     <Compile Include="Migrations\201801042041528_InsertDataToGenre.Designer.cs">
       <DependentUpon>201801042041528_InsertDataToGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801042134262_ChangeByteToIntOfGenreIdInGenreDataModel.cs" />
+    <Compile Include="Migrations\201801042134262_ChangeByteToIntOfGenreIdInGenreDataModel.Designer.cs">
+      <DependentUpon>201801042134262_ChangeByteToIntOfGenreIdInGenreDataModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -338,6 +342,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801042041528_InsertDataToGenre.resx">
       <DependentUpon>201801042041528_InsertDataToGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801042134262_ChangeByteToIntOfGenreIdInGenreDataModel.resx">
+      <DependentUpon>201801042134262_ChangeByteToIntOfGenreIdInGenreDataModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
